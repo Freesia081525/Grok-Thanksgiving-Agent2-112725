@@ -1,4 +1,7 @@
 streamlit
+httpx
+pyyaml
+markdown
 # Data Processing
 pandas
 numpy
