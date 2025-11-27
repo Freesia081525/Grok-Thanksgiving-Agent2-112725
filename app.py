@@ -19,9 +19,9 @@ with open("agents.yaml", "r", encoding="utf-8") as f:
 MODELS = {
     "OpenAI: gpt-4o-mini": ("openai", "gpt-4o-mini"),
     "OpenAI: gpt-4.1-mini": ("openai", "gpt-4.1-mini"),
-    "Gemini: gemini-1.5-flash": ("gemini", "gemini-1.5-flash"),
-    "Gemini: gemini-2.0-flash": ("gemini", "gemini-2.0-flash"),
-    "xAI: grok-beta": ("xai", "grok-beta"),
+    "Gemini: gemini-2.5-flash": ("gemini", "gemini-2.5-flash"),
+    "Gemini: gemini-2.5-flash-lite": ("gemini", "gemini-2.5-flash-lite"),
+    "xAI: grok-3-mini": ("xai", "grok-3-mini"),
     "Anthropic: claude-3-haiku": ("anthropic", "claude-3-haiku-20240307"),
 }
 
